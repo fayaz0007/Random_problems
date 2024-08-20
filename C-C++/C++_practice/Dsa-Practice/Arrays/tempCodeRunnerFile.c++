@@ -1,0 +1,2 @@
+{
+            curentLeaders = arr[i
