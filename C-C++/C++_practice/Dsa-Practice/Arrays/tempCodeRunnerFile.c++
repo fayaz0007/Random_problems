@@ -1,2 +1,1 @@
-{
-            curentLeaders = arr[i
+if
