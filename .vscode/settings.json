@@ -1,0 +1,15 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.html": "html",
+        "chrono": "c",
+        "random": "c",
+        "limits": "c",
+        "valarray": "c",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "numbers": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
+    }
+}
