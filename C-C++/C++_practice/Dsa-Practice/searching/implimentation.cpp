@@ -22,7 +22,7 @@ int binarySearching(int n,int key){
                 return mid;
             }
             else if(numbers[mid]>key){
-                high = mid -1;
+                high = mid-1;
 
             }
             else if(numbers[mid]<key){
