@@ -16,10 +16,8 @@ void merge(int l, int mid, int R) {
     for (int i = 0; i < n; i++) {
         arr2[i] = arr[mid + 1 + i];
     }
-    
     arr1[m] = INT_MAX;
     arr2[n] = INT_MAX;
-
     int i = 0, j = 0;
     for (int k = l; k <= R; k++) {
         if (arr1[i] <= arr2[j]) {
@@ -31,7 +29,6 @@ void merge(int l, int mid, int R) {
         }
     }
 }
-
 void mergeSort(int l, int R) {
     if (l < R) {
         int mid = (l + R) / 2;
@@ -40,8 +37,6 @@ void mergeSort(int l, int R) {
         merge(l, mid, R);
     }
 }
-
-
 int main() {
     int n;
     cin >> n;  
